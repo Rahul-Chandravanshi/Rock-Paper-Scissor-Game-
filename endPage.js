@@ -69,7 +69,7 @@ function showEnd() {
 
 let instagram = document.createElement('a');
 instagram.href = 'https://www.instagram.com/rahul.chandravanshi_0';
-instagram.classList.add('instagram')
+instagram.classList.add('instaGram')
 instagram.textContent = 'Instagram';
 
 let youTube = document.createElement('a');
