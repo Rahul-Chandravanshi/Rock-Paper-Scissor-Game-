@@ -122,14 +122,8 @@ result();
 	
 };
 
-		
+	
 function replaceSign(){
-	
-		
-		
-			
-		
-	
 	document.querySelector('.game').removeChild(gestures[record.slice((record.length - 2),(record.length - 1))]);
 	
 	document.querySelector('.game').removeChild(gestures2[record2.slice((record2.length - 2),(record2.length - 1))]);
@@ -143,8 +137,6 @@ function result(){
 		showResult();
 		points++;
 	console.log('Points : ' + points);
-	
-	
 	}else if (b == c) {
 		console.log("Draw");
 		showResult();
@@ -217,9 +209,6 @@ function drawMatch(){
 	gestures[0].classList.add('left-hand');
 gestures2[0].classList.add('right-hand');
 	
-	
-		
-	
 	document.querySelector('.game').removeChild(gestures[c]);
 	
 	document.querySelector('.game').removeChild(gestures2[b]);
@@ -289,7 +278,6 @@ document.body.removeChild(homePage);
 function tested() {
 	for (var i = 0; i < availableTime.length; i++) {
   document.querySelector('.option'+[i]).classList.remove('visibility');
-		
 	
 	}
 };
