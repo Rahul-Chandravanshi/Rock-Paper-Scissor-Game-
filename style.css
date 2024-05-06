@@ -84,7 +84,7 @@ img{
 p{
 	padding: 0 5px;
 	font-family: Arial;}
-.YouTube ,.instagram{
+.youTube ,.instagram{
 	margin: 0 20px;
 }
 .rock_button,.paper_button,.scissor_button {
@@ -118,7 +118,6 @@ p{
 	width: 32em;
 	height: 32em;
 }	
-
 
 @keyframes shake-left {
   0%, 100% { transform: rotate(20deg); }
@@ -176,9 +175,6 @@ p{
 	align-items: center;
 }
 
-
-
-
 .leftHand-push {
 	animation: shake-LH 0.8s ease 1;
 }
@@ -186,7 +182,6 @@ p{
 .rightHand-push {
 	animation: shake-RH 0.8s ease 1;
 }
-
 
 @keyframes shake-LH {
   0%, 100% { right: 84%;
@@ -217,11 +212,10 @@ p{
 	height: 10em;
   }
 	100% {
-		width: 42em;
+	width: 42em;
 	height: 42em;
 	}
 }
-
 
 .screen-box{
 	
@@ -272,6 +266,4 @@ p{
 	border-radius: 5px;
 	
 }
-
-
 /* Georgia, Times New Roman, Verdana, Tahoma, */
