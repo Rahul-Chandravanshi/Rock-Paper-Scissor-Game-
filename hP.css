@@ -151,7 +151,8 @@ ul{
 	font-family: Georgia, sans-serif;
 	color: #fff;
 }
-.instagram,.youTube {
+.igBtn,.ytBtn {
+	margin-right: 1em;
 	padding: 0.4em;
 	border-radius: 0.4em;
 	color: #fff;
@@ -160,10 +161,10 @@ ul{
 	font-weight: bold;
 	font-family: Georgia, sans-serif;
 }
-.instaGram {
+.igBtn {
 	background: linear-gradient(to right, #FF16D7, #FFAF00);
 }
-.youtube {
+.ytBtn {
 	background: red;
 }
 
